@@ -1,1 +1,10 @@
-spring.application.name=Producer-Spring-Kafka
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: grupo-produtor
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+server:
+  port: 8082
