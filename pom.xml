@@ -11,7 +11,7 @@
 	<groupId>com.gambalonga</groupId>
 	<artifactId>kafka-producer-usuario</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>producer-usuario </name>
+	<name>producer-usuario</name>
 	<description>Projeto Estudo Utilizando Kafka</description>
 
 
